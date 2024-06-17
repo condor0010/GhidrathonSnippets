@@ -1,0 +1,6 @@
+state = getState()
+currentProgram = state.getCurrentProgram()
+name = currentProgram.getName()
+location = currentProgram.getExecutablePath()
+print(f"The currently loaded program is: '{name}'")
+print(f"Its location on disk is: '{location}'")
